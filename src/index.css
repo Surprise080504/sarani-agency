@@ -1,0 +1,300 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/Montserrat/Montserrat-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Montserrat_bold';
+    src: url('./assets/fonts/Montserrat/Montserrat-Bold.otf');
+}
+
+iframe {
+    display: none !important;
+}
+
+.MsgIcon {
+    font-size: 35px;
+    color: #000;
+}
+
+.MsgIcon_white {
+    color: #fff;
+    font-size: 35px;
+}
+
+.RightIcon {
+    font-weight: bold;
+    color: #000;
+}
+
+.RightIconYellow {
+    font-weight: bold;
+    color: #eebc79;
+    font-size: 30px;
+}
+
+.downIcon {
+    margin-left: 5px;
+    font-weight: 800;
+}
+
+.BigRightIcon {
+    font-size: 35px;
+    color: #000;
+}
+
+.arrowback {
+    background-color: transparent !important;
+}
+
+.RightIconWhite {
+    font-size: 25px;
+    color: #fff;
+}
+
+.ItemLeft {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.CircleItem1:hover>.solutionsubtext,
+.CircleItem2:hover>.solutionsubtext,
+.CircleItem3:hover>.solutionsubtext,
+.CircleItem4:hover>.solutionsubtext {
+    display: none;
+}
+
+.CircleItem1 {
+    margin-right: -30px;
+    margin-bottom: -30px;
+}
+
+.CircleItem2 {
+    margin-left: -30px;
+    margin-bottom: -30px;
+}
+
+.CircleItem3 {
+    margin-right: -30px;
+    margin-top: -30px;
+}
+
+.CircleItem4 {
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+.CircleItem1:hover {
+    color: #fff;
+    background: url('./assets/img/art.jpg') no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    z-index: 2;
+}
+
+.CircleItem2:hover {
+    color: #fff;
+    background: url('./assets/img/shop.jpg') no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    z-index: 2;
+}
+
+.modalleft {
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.modalleftgrey {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.barStyle {
+    font-size: 30px;
+    display: none;
+}
+
+.barStylewhite {
+    font-size: 30px;
+    color: #fff;
+    display: none;
+    margin-top: -10px;
+}
+
+.dotwhite {
+    background: #fff;
+}
+
+.dotgrey {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.agencyclose {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+
+}
+
+.CircleItem3:hover {
+    color: #fff;
+    background: url('./assets/img/place.jpg') no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    z-index: 2;
+}
+
+.CircleItem4:hover {
+    color: #fff;
+    background: url('./assets/img/table.jpg') no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    z-index: 2;
+}
+
+.selectleft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 50px;
+
+}
+
+.selectright {
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.userIcon {
+    color: #a0a0a0;
+}
+
+
+.checkboxcontainer {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #8d8d8c;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.checkboxcontainer::after {
+    content: "✔";
+    padding-left: 3px;
+    font-size: 13px;
+    width: 19px;
+    color: #fff;
+    height: 19px;
+    position: absolute;
+    background-color: #2196f3;
+    transform: scale(0);
+    transition: all 0.1s;
+    display: flex;
+}
+
+.checkboxcontainer:checked::after {
+    transform: scale(1);
+
+}
+
+.footeritem {
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.footerRightIcon {
+    font-size: 17px;
+}
+
+.margintop {
+    margin-top: 60px;
+}
+
+@media screen and (max-width:1280px) {
+    .barStyle {
+        display: flex !important;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .barStylewhite {
+        display: flex !important;
+    }
+}
+
+@media screen and (max-width:1200px) {
+
+    .CircleItem1 {
+        margin-right: -15px !important;
+        margin-bottom: -15px !important;
+    }
+
+    .CircleItem2 {
+        margin-left: -15px !important;
+        margin-bottom: -15px !important;
+    }
+
+    .CircleItem3 {
+        margin-right: -15px !important;
+        margin-top: -15px !important;
+    }
+
+    .CircleItem4 {
+        margin-left: -15px !important;
+        margin-top: -15px !important;
+    }
+
+}
+
+@media screen and (max-width:915px) {
+    .CircleItem1 {
+        margin-top: 15px;
+        margin-right: 0 !important;
+    }
+
+    .CircleItem2 {
+        margin-top: -15px !important;
+        margin-left: 0 !important;
+    }
+
+    .CircleItem3 {
+        margin-top: -15px !important;
+        margin-right: 0 !important;
+    }
+
+    .CircleItem4 {
+        margin-top: -30px !important;
+        margin-left: 0 !important;
+    }
+}
+
+@media screen and (max-width:1170px) {
+    .selectright {
+        margin-top: 50px !important;
+        margin-left: 0 !important;
+    }
+
+    .selectleft {
+        margin-right: 0 !important;
+    }
+}
+
+.linkedinIcon {
+    font-size: 30px;
+    margin-top: 20px;
+}
